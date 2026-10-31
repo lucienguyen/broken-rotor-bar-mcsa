@@ -1,0 +1,157 @@
+task,sensors,model,scheme,load_pct,score
+detection,current,logreg,leave-one-load-out,12.5,0.95
+detection,current,logreg,train >=75% only,12.5,0.875
+detection,current,logreg,leave-one-load-out,25.0,1.0
+detection,current,logreg,train >=75% only,25.0,0.875
+detection,current,logreg,leave-one-load-out,37.5,1.0
+detection,current,logreg,train >=75% only,37.5,1.0
+detection,current,logreg,leave-one-load-out,50.0,1.0
+detection,current,logreg,train >=75% only,50.0,1.0
+detection,current,logreg,leave-one-load-out,62.5,1.0
+detection,current,logreg,train >=75% only,62.5,1.0
+detection,current,logreg,leave-one-load-out,75.0,1.0
+detection,current,logreg,leave-one-load-out,87.5,1.0
+detection,current,logreg,leave-one-load-out,100.0,1.0
+detection,current,forest,leave-one-load-out,12.5,0.8694444444444445
+detection,current,forest,train >=75% only,12.5,0.75
+detection,current,forest,leave-one-load-out,25.0,1.0
+detection,current,forest,train >=75% only,25.0,0.875
+detection,current,forest,leave-one-load-out,37.5,1.0
+detection,current,forest,train >=75% only,37.5,0.875
+detection,current,forest,leave-one-load-out,50.0,1.0
+detection,current,forest,train >=75% only,50.0,1.0
+detection,current,forest,leave-one-load-out,62.5,1.0
+detection,current,forest,train >=75% only,62.5,1.0
+detection,current,forest,leave-one-load-out,75.0,1.0
+detection,current,forest,leave-one-load-out,87.5,1.0
+detection,current,forest,leave-one-load-out,100.0,1.0
+detection,vibration,logreg,leave-one-load-out,12.5,1.0
+detection,vibration,logreg,train >=75% only,12.5,0.8944444444444444
+detection,vibration,logreg,leave-one-load-out,25.0,1.0
+detection,vibration,logreg,train >=75% only,25.0,0.85
+detection,vibration,logreg,leave-one-load-out,37.5,1.0
+detection,vibration,logreg,train >=75% only,37.5,0.95
+detection,vibration,logreg,leave-one-load-out,50.0,1.0
+detection,vibration,logreg,train >=75% only,50.0,1.0
+detection,vibration,logreg,leave-one-load-out,62.5,1.0
+detection,vibration,logreg,train >=75% only,62.5,1.0
+detection,vibration,logreg,leave-one-load-out,75.0,1.0
+detection,vibration,logreg,leave-one-load-out,87.5,1.0
+detection,vibration,logreg,leave-one-load-out,100.0,1.0
+detection,vibration,forest,leave-one-load-out,12.5,1.0
+detection,vibration,forest,train >=75% only,12.5,0.7125
+detection,vibration,forest,leave-one-load-out,25.0,1.0
+detection,vibration,forest,train >=75% only,25.0,1.0
+detection,vibration,forest,leave-one-load-out,37.5,1.0
+detection,vibration,forest,train >=75% only,37.5,1.0
+detection,vibration,forest,leave-one-load-out,50.0,1.0
+detection,vibration,forest,train >=75% only,50.0,1.0
+detection,vibration,forest,leave-one-load-out,62.5,1.0
+detection,vibration,forest,train >=75% only,62.5,1.0
+detection,vibration,forest,leave-one-load-out,75.0,1.0
+detection,vibration,forest,leave-one-load-out,87.5,1.0
+detection,vibration,forest,leave-one-load-out,100.0,0.8
+detection,both,logreg,leave-one-load-out,12.5,1.0
+detection,both,logreg,train >=75% only,12.5,0.9444444444444444
+detection,both,logreg,leave-one-load-out,25.0,1.0
+detection,both,logreg,train >=75% only,25.0,1.0
+detection,both,logreg,leave-one-load-out,37.5,1.0
+detection,both,logreg,train >=75% only,37.5,1.0
+detection,both,logreg,leave-one-load-out,50.0,1.0
+detection,both,logreg,train >=75% only,50.0,1.0
+detection,both,logreg,leave-one-load-out,62.5,1.0
+detection,both,logreg,train >=75% only,62.5,1.0
+detection,both,logreg,leave-one-load-out,75.0,1.0
+detection,both,logreg,leave-one-load-out,87.5,1.0
+detection,both,logreg,leave-one-load-out,100.0,1.0
+detection,both,forest,leave-one-load-out,12.5,0.925
+detection,both,forest,train >=75% only,12.5,0.875
+detection,both,forest,leave-one-load-out,25.0,1.0
+detection,both,forest,train >=75% only,25.0,0.9375
+detection,both,forest,leave-one-load-out,37.5,1.0
+detection,both,forest,train >=75% only,37.5,1.0
+detection,both,forest,leave-one-load-out,50.0,1.0
+detection,both,forest,train >=75% only,50.0,1.0
+detection,both,forest,leave-one-load-out,62.5,1.0
+detection,both,forest,train >=75% only,62.5,1.0
+detection,both,forest,leave-one-load-out,75.0,1.0
+detection,both,forest,leave-one-load-out,87.5,1.0
+detection,both,forest,leave-one-load-out,100.0,0.8
+severity,current,logreg,leave-one-load-out,12.5,0.31333333333333335
+severity,current,logreg,train >=75% only,12.5,0.2
+severity,current,logreg,leave-one-load-out,25.0,1.0
+severity,current,logreg,train >=75% only,25.0,0.4
+severity,current,logreg,leave-one-load-out,37.5,1.0
+severity,current,logreg,train >=75% only,37.5,0.8
+severity,current,logreg,leave-one-load-out,50.0,1.0
+severity,current,logreg,train >=75% only,50.0,0.8400000000000001
+severity,current,logreg,leave-one-load-out,62.5,1.0
+severity,current,logreg,train >=75% only,62.5,1.0
+severity,current,logreg,leave-one-load-out,75.0,1.0
+severity,current,logreg,leave-one-load-out,87.5,1.0
+severity,current,logreg,leave-one-load-out,100.0,0.6
+severity,current,forest,leave-one-load-out,12.5,0.45777777777777773
+severity,current,forest,train >=75% only,12.5,0.2
+severity,current,forest,leave-one-load-out,25.0,0.4
+severity,current,forest,train >=75% only,25.0,0.2
+severity,current,forest,leave-one-load-out,37.5,0.4
+severity,current,forest,train >=75% only,37.5,0.4
+severity,current,forest,leave-one-load-out,50.0,0.6
+severity,current,forest,train >=75% only,50.0,0.6
+severity,current,forest,leave-one-load-out,62.5,0.9800000000000001
+severity,current,forest,train >=75% only,62.5,1.0
+severity,current,forest,leave-one-load-out,75.0,1.0
+severity,current,forest,leave-one-load-out,87.5,0.9800000000000001
+severity,current,forest,leave-one-load-out,100.0,0.8800000000000001
+severity,vibration,logreg,leave-one-load-out,12.5,0.7577777777777778
+severity,vibration,logreg,train >=75% only,12.5,0.3488888888888889
+severity,vibration,logreg,leave-one-load-out,25.0,1.0
+severity,vibration,logreg,train >=75% only,25.0,0.8
+severity,vibration,logreg,leave-one-load-out,37.5,1.0
+severity,vibration,logreg,train >=75% only,37.5,0.8
+severity,vibration,logreg,leave-one-load-out,50.0,1.0
+severity,vibration,logreg,train >=75% only,50.0,1.0
+severity,vibration,logreg,leave-one-load-out,62.5,1.0
+severity,vibration,logreg,train >=75% only,62.5,1.0
+severity,vibration,logreg,leave-one-load-out,75.0,1.0
+severity,vibration,logreg,leave-one-load-out,87.5,1.0
+severity,vibration,logreg,leave-one-load-out,100.0,1.0
+severity,vibration,forest,leave-one-load-out,12.5,0.78
+severity,vibration,forest,train >=75% only,12.5,0.2
+severity,vibration,forest,leave-one-load-out,25.0,1.0
+severity,vibration,forest,train >=75% only,25.0,0.2
+severity,vibration,forest,leave-one-load-out,37.5,1.0
+severity,vibration,forest,train >=75% only,37.5,0.82
+severity,vibration,forest,leave-one-load-out,50.0,1.0
+severity,vibration,forest,train >=75% only,50.0,1.0
+severity,vibration,forest,leave-one-load-out,62.5,1.0
+severity,vibration,forest,train >=75% only,62.5,1.0
+severity,vibration,forest,leave-one-load-out,75.0,1.0
+severity,vibration,forest,leave-one-load-out,87.5,1.0
+severity,vibration,forest,leave-one-load-out,100.0,1.0
+severity,both,logreg,leave-one-load-out,12.5,0.8
+severity,both,logreg,train >=75% only,12.5,0.47777777777777775
+severity,both,logreg,leave-one-load-out,25.0,1.0
+severity,both,logreg,train >=75% only,25.0,0.8
+severity,both,logreg,leave-one-load-out,37.5,1.0
+severity,both,logreg,train >=75% only,37.5,0.8
+severity,both,logreg,leave-one-load-out,50.0,1.0
+severity,both,logreg,train >=75% only,50.0,1.0
+severity,both,logreg,leave-one-load-out,62.5,1.0
+severity,both,logreg,train >=75% only,62.5,1.0
+severity,both,logreg,leave-one-load-out,75.0,1.0
+severity,both,logreg,leave-one-load-out,87.5,1.0
+severity,both,logreg,leave-one-load-out,100.0,1.0
+severity,both,forest,leave-one-load-out,12.5,0.78
+severity,both,forest,train >=75% only,12.5,0.2
+severity,both,forest,leave-one-load-out,25.0,1.0
+severity,both,forest,train >=75% only,25.0,0.4
+severity,both,forest,leave-one-load-out,37.5,1.0
+severity,both,forest,train >=75% only,37.5,0.9199999999999999
+severity,both,forest,leave-one-load-out,50.0,1.0
+severity,both,forest,train >=75% only,50.0,1.0
+severity,both,forest,leave-one-load-out,62.5,1.0
+severity,both,forest,train >=75% only,62.5,1.0
+severity,both,forest,leave-one-load-out,75.0,1.0
+severity,both,forest,leave-one-load-out,87.5,1.0
+severity,both,forest,leave-one-load-out,100.0,1.0

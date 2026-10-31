@@ -1,0 +1,4 @@
+split,"severity, all loads","severity, loads <= 25 %"
+random window split (leaky),0.9832489451476792,0.9463157894736842
+grouped by run,0.9765400843881856,0.9226315789473685
+grouped by repetition,0.9723523206751054,0.9022807017543858

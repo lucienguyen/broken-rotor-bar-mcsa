@@ -1,0 +1,83 @@
+{
+  "model": "forest",
+  "thresholds": {
+    "detection": 0.95,
+    "severity": 0.95
+  },
+  "detect_current_min_load_pct": 25.0,
+  "severity_current_min_load_pct": 25.0,
+  "detect_vibration_min_load_pct": 12.5,
+  "severity_vibration_min_load_pct": 12.5,
+  "detect_both_min_load_pct": 12.5,
+  "severity_both_min_load_pct": 12.5,
+  "per_load": {
+    "detection/current": {
+      "12.5": 0.894,
+      "25.0": 1.0,
+      "37.5": 1.0,
+      "50.0": 1.0,
+      "62.5": 1.0,
+      "75.0": 1.0,
+      "87.5": 1.0,
+      "100.0": 1.0
+    },
+    "detection/vibration": {
+      "12.5": 1.0,
+      "25.0": 1.0,
+      "37.5": 1.0,
+      "50.0": 1.0,
+      "62.5": 1.0,
+      "75.0": 1.0,
+      "87.5": 1.0,
+      "100.0": 1.0
+    },
+    "detection/both": {
+      "12.5": 1.0,
+      "25.0": 1.0,
+      "37.5": 1.0,
+      "50.0": 1.0,
+      "62.5": 1.0,
+      "75.0": 1.0,
+      "87.5": 1.0,
+      "100.0": 1.0
+    },
+    "severity/current": {
+      "12.5": 0.898,
+      "25.0": 1.0,
+      "37.5": 1.0,
+      "50.0": 1.0,
+      "62.5": 1.0,
+      "75.0": 1.0,
+      "87.5": 0.98,
+      "100.0": 0.98
+    },
+    "severity/vibration": {
+      "12.5": 1.0,
+      "25.0": 1.0,
+      "37.5": 1.0,
+      "50.0": 1.0,
+      "62.5": 1.0,
+      "75.0": 1.0,
+      "87.5": 1.0,
+      "100.0": 1.0
+    },
+    "severity/both": {
+      "12.5": 1.0,
+      "25.0": 1.0,
+      "37.5": 1.0,
+      "50.0": 1.0,
+      "62.5": 1.0,
+      "75.0": 1.0,
+      "87.5": 1.0,
+      "100.0": 1.0
+    }
+  },
+  "overall": {
+    "detection/current": 0.987,
+    "detection/vibration": 1.0,
+    "detection/both": 1.0,
+    "severity/current": 0.982,
+    "severity/vibration": 1.0,
+    "severity/both": 1.0
+  }
+}
