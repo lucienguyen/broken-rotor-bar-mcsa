@@ -45,3 +45,6 @@ where $f$ is the supply frequency and $s$ is the slip. A variable-speed drive al
 ## References
 
 [1] A. E. Treml, R. A. Flauzino, M. Suetake, and N. A. R. Maciejewski, "Experimental database for detecting and diagnosing rotor broken bar in a three-phase induction motor," IEEE Dataport, Sep. 16, 2020. [Online]. Available: https://dx.doi.org/10.21227/fmnm-bn95
+
+### AI usage disclaimer
+Claude was used to debugged errors and summarized this README. 
